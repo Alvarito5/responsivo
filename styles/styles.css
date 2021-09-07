@@ -1,0 +1,34 @@
+body {
+  background-color: burlywood;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.frases {
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+}
+@media (max-width: 700px) {
+  h1 {
+    color: white;
+  }
+  body {
+    background-color: brown;
+  }
+  .frases {
+    display: inherit;
+    height: auto;
+  }
+
+  .frases h2 {
+    color: green;
+  }
+  .Mision p {
+    color: gray;
+  }
+}
